@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url("images/man-1868632_1920.jpg");
+
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 23px;
+  top: 23px;
+  /* border: 2px solid yellow; */
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 10px 10px;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar li {
+  display: inline-block;
+
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.navbar a:active {
+  text-decoration: underline;
+}
+
+.mid {
+  display: block;
+  width: 40%;
+  margin: 23px auto;
+  /* border: 2px solid red; */
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 23px;
+  top: 23px;
+  /* border: 2px solid hotpink; */
+}
+
+.btn {
+  margin: 8px 19px;
+  background-color: #2f2b3b;
+  color: white;
+  border: .5px solid #dbdbeb;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn:hover {
+  background-color: rebeccapurple;
+  box-shadow: 5px 5px 5px antiquewhite;
+
+}
+
+.left {
+  width: 140px;
+  height: 74px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#left:hover img {
+  scale: 1.2;
+}
+
+.left img {
+  width: 141px;
+  height: 51px;
+  filter: invert(100%);
+  transition: all 2s ease-in-out 10ms;
+
+
+}
+
+.left div {
+  text-align: center;
+  font-size: 14px;
+  line-height: 12px;
+  color: white;
+}
+
+.container {
+  /* border: 2px solid red; */
+  margin: 36px 36px;
+  padding: 14px 14px;
+  width: 40%;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form-group input {
+  margin: 2px 15px;
+  padding: 10px 34px;
+  font-size: 17px;
+  line-height: 1.2em;
+  border: 2px solid grey;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.container button {
+  display: block;
+  width: 20%;
+  margin: 9px 80px;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
